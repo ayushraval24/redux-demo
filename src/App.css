@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+  width: 100% !important;
+}
+
+.card_image{
+  width: 80% !important;
+  height: 250px !important;
+  margin: auto !important;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+  transition-duration: 0.2s;
+}
+
+.product_details{
+  border: 2px solid grey;
+}
+
+.product_detail_image{
+  height: 500px;
+  width: 70%;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+@media screen {
+  
+}

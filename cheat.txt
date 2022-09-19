@@ -1,0 +1,5 @@
+useSelector : Used in order to get the access of our redux store
+
+useDispatch (to dispatch an action) : To store the data in the store we have to dispatch an action (action for storing data)
+
+redux-thunk : Redux Thunk is a middleware that lets you call action creators that return a function instead of an action object. That function receives the store's dispatch method, which is then used to dispatch regular synchronous actions inside the function's body once the asynchronous operations have been completed.
